@@ -44,4 +44,30 @@ pnpm static:serve
 
 研究数据更新必须在完整本地项目中完成：更新 SQLite，经本地导出和图片派生流程生成新快照，人工检查 JSON 和 WebP，再把审核后的公开文件同步到 clean public history。GitHub Actions 只验证和构建，不能重新生成研究数据。
 
-项目尚未在 GitHub Pages 上线，实际 repository 和 Pages URL 将在部署成功后记录。
+## 已部署环境
+
+- GitHub repository：`https://github.com/Gaga-July/impressionism-women`
+- 本地公开 remote：`public`
+- 分支映射：本地 `public-main` → 远端 `main`
+- Workflow：`.github/workflows/deploy-pages.yml`
+- Node.js：22.22.2
+- pnpm：11.19.0
+- Pages basePath：`/impressionism-women`
+- GitHub Pages：`https://gaga-july.github.io/impressionism-women/`
+
+GitHub Actions 使用 `pnpm install --frozen-lockfile` 和 `pnpm static:build:ci`，上传的 Pages artifact 仅为 `web/out`。
+
+## 重新发布
+
+完整研究项目中的更新流程：
+
+1. 在本地 SQLite 中维护研究数据，并保留 `source-images` 原图。
+2. 本地运行 `static:prepare`。
+3. 人工审核 `generated/static-data` 和派生 WebP。
+4. 只把 allowlist 允许的公开内容同步到独立 `public-main`。
+5. 再次执行 public audit 和隔离 `static:build:ci`。
+6. 在 `public-main` 创建 commit。
+7. 使用明确配置的 `public` remote 推送 `public-main` 到远端 `main`。
+8. GitHub Actions 自动验证、构建并更新 GitHub Pages。
+
+禁止使用 `git push --all`、`git push --mirror` 或 `git push --tags`。完整开发历史、开发 tags 与公开历史必须保持分离。
