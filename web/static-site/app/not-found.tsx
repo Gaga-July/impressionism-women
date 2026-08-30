@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <main className="mx-auto flex min-h-screen max-w-xl flex-col items-center justify-center px-6 text-center"><p className="eyebrow">404</p><h1 className="mt-3 text-3xl font-semibold text-[var(--text-primary)]">页面不存在 · Page introuvable</h1><p className="mt-4 text-[var(--text-secondary)]">请求的作品或页面不存在。</p><Link className="button-primary mt-7" href="/">返回首页 · Accueil</Link></main>; }

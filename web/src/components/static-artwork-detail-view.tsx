@@ -1,0 +1,31 @@
+"use client";
+
+import Link from "next/link";
+import Image from "next/image";
+import { useSearchParams } from "next/navigation";
+import { ArtworkCard } from "@/components/artwork-card";
+import { SiteHeader } from "@/components/site-header";
+import { frenchClass, frenchRelation, frenchRole, frenchScene, frenchTag } from "@/lib/french";
+import { languageFrom, localize, primarySpaceLabel, withLanguage } from "@/lib/i18n";
+import { detailImageUrl } from "@/lib/presentation";
+import type { PublicPainting } from "@/lib/static-data";
+import { specificSpaceLabel } from "@/lib/space-filters";
+
+type DetailRow = { label: string; value?: string | null };
+function DetailGroup({ title, rows }: { title: string; rows: DetailRow[] }) { const shown = rows.filter(row => row.value); if (!shown.length) return null; return <section className="detail-group"><h2>{title}</h2><dl>{shown.map(row => <div key={row.label}><dt>{row.label}</dt><dd>{row.value}</dd></div>)}</dl></section>; }
+
+export function StaticArtworkDetailView({ painting, related }: { painting: PublicPainting; related: PublicPainting[] }) {
+  const query = useSearchParams(); const lang = languageFrom({ lang: query.get("lang") ?? undefined }); const fr = lang === "fr";
+  const requestedFrom = query.get("from"); const collectionHref = requestedFrom?.startsWith("/collection") ? requestedFrom : withLanguage("/collection", lang);
+  const title = fr ? painting.titleFr ?? painting.titleOriginal ?? painting.titleZh : painting.titleZh;
+  const artist = fr ? painting.artist.nameFr ?? painting.artist.nameOriginal ?? painting.artist.nameZh : painting.artist.nameZh;
+  const spaces = painting.spaces.map(item => fr ? item.spaceCategory.nameFr ?? frenchScene(specificSpaceLabel(item.spaceCategory.nameZh) ?? item.spaceCategory.nameZh) : item.spaceCategory.nameZh).join(" · ");
+  const roles = painting.socialRoles.map(item => fr ? item.socialRole.nameFr ?? frenchRole(item.socialRole.nameZh) : item.socialRole.nameZh).join(" · ");
+  const classes = painting.socialClasses.map(item => fr ? item.nameFr ?? frenchClass(item.nameZh) : item.nameZh).join(" · ");
+  const relations = painting.personRelations.map(item => fr ? item.nameFr ?? frenchRelation(item.nameZh) : item.nameZh).join(" · ");
+  const tags = painting.tags.map(item => fr ? item.nameFr ?? frenchTag(item.nameZh) : item.nameZh).join(" · ");
+  const material = fr ? painting.mediumFr ?? painting.mediumOriginal ?? painting.mediumZh : painting.mediumZh ?? painting.mediumOriginal;
+  const collection = fr ? painting.collectionFr ?? painting.collectionOriginal ?? painting.collectionZh : painting.collectionZh ?? painting.collectionOriginal;
+  const image = detailImageUrl(painting.images[0]); const sourceRows = painting.sources.map(item => ({ label: localize(lang, "来源", "Source"), value: item.label }));
+  return <><SiteHeader /><main className="mx-auto w-full max-w-7xl px-5 py-10 sm:px-8"><Link href={collectionHref} className="back-link text-sm hover:underline">← {localize(lang, "返回作品库", "Retour à la collection")}</Link><div className="mt-7 grid gap-10 lg:grid-cols-[minmax(0,1.15fr)_minmax(19rem,.85fr)]"><div className="detail-image overflow-hidden rounded-[var(--radius-card)]">{image ? <Image src={image} alt={title} width={1400} height={1050} sizes="(max-width: 1024px) 100vw, 58vw" className="h-auto w-full" /> : <div className="flex aspect-[4/3] items-center justify-center text-[var(--text-secondary)]">{localize(lang, "暂未关联图片", "Image à venir")}</div>}</div><article className="detail-intro"><p className="text-sm tracking-[0.13em] text-[var(--text-tertiary)]">{painting.code}</p><h1>{title}</h1>{!fr && painting.titleFr && <p className="mt-2 italic text-[var(--text-secondary)]">{painting.titleFr}</p>}<p className="mt-6 text-lg text-[var(--text-secondary)]"><Link href={withLanguage(`/artists/${painting.artist.code}`, lang)} className="hover:text-[var(--accent-deep)] hover:underline">{artist}</Link><span className="mx-2 text-[var(--text-tertiary)]">·</span>{painting.dateDisplay}</p><div className="mt-7 flex flex-wrap gap-2"><span className="chip">{primarySpaceLabel(painting.primarySpaceClassification, lang)}</span>{painting.socialRoles.slice(0, 3).map(item => <span className="chip chip-muted" key={item.socialRole.code}>{fr ? item.socialRole.nameFr ?? frenchRole(item.socialRole.nameZh) : item.socialRole.nameZh}</span>)}</div><DetailGroup title={localize(lang, "基本信息", "Informations de l’œuvre")} rows={[{ label: localize(lang, "创作时间", "Date"), value: painting.dateDisplay }, { label: localize(lang, "材质", "Technique"), value: material }, { label: localize(lang, "尺寸", "Dimensions"), value: painting.dimensions }, { label: localize(lang, "收藏机构", "Lieu de conservation"), value: collection }, { label: "ART", value: painting.code }]} /></article></div><div className="detail-sections mt-12 grid gap-5 lg:grid-cols-3"><DetailGroup title={localize(lang, "空间", "Espace")} rows={[{ label: localize(lang, "一级分类", "Catégorie principale"), value: primarySpaceLabel(painting.primarySpaceClassification, lang) }, { label: localize(lang, "具体空间", "Lieu précis"), value: spaces }]} /><DetailGroup title={localize(lang, "女性身份与标签", "Identités et étiquettes")} rows={[{ label: localize(lang, "社会角色", "Rôle social"), value: roles }, { label: localize(lang, "社会阶层", "Classe sociale"), value: classes }, { label: localize(lang, "人物关系", "Relation"), value: relations }, { label: localize(lang, "标签", "Étiquettes"), value: tags }]} /><DetailGroup title={localize(lang, "来源与核验", "Sources et vérification")} rows={[{ label: localize(lang, "核验状态", "Statut de vérification"), value: painting.verificationStatus }, ...sourceRows]} /></div>{related.length ? <section className="mt-16"><div className="mb-7"><p className="eyebrow">{localize(lang, "延伸浏览", "POURSUIVRE LA LECTURE")}</p><h2 className="mt-1 text-3xl font-semibold text-[var(--text-primary)]">{localize(lang, "相关作品", "Œuvres associées")}</h2><p className="mt-2 text-sm text-[var(--text-secondary)]">{localize(lang, "优先呈现相近社会角色、空间分类且来自不同艺术家的作品。", "Œuvres associées par rôle social, espace et, lorsque possible, par un autre artiste.")}</p></div><div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{related.map(item => <ArtworkCard key={item.code} painting={item} lang={lang} />)}</div></section> : null}</main></>;
+}

@@ -1,0 +1,18 @@
+{
+  "dataSchemaVersion": 1,
+  "generatedAt": "2026-08-30T11:43:56.947Z",
+  "paintingCount": 355,
+  "artistCount": 7,
+  "imageCount": 321,
+  "artworkCodeReservationCount": 2,
+  "artworkCodeReservations": [
+    {
+      "code": "ART-0316",
+      "reason": "Confirmed blank placeholder record; excluded from formal website data."
+    },
+    {
+      "code": "ART-0317",
+      "reason": "Confirmed blank placeholder record; excluded from formal website data."
+    }
+  ]
+}

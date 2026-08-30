@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-08-30T11:43:56.947Z",
+  "dataSchemaVersion": 1,
+  "status": "passed",
+  "counts": {
+    "paintings": 355,
+    "artists": 7,
+    "images": 321,
+    "reservations": 2
+  },
+  "checks": {
+    "expectedCounts": true,
+    "uniqueArtworkCodes": true,
+    "uniqueArtistCodes": true,
+    "validArtistReferences": true,
+    "uniqueImagePaths": true,
+    "relativeImagePaths": true,
+    "noPathTraversal": true,
+    "sourceFilesExist": true,
+    "reservationCodesSeparated": true,
+    "jsonParseable": true
+  },
+  "warnings": [],
+  "errors": [],
+  "outputFiles": [
+    {
+      "name": "paintings.json",
+      "bytes": 624868
+    },
+    {
+      "name": "artists.json",
+      "bytes": 8320
+    },
+    {
+      "name": "site-summary.json",
+      "bytes": 466
+    }
+  ]
+}

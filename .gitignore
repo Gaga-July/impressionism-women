@@ -1,0 +1,45 @@
+# Local secrets and databases
+**/.env
+**/.env.local
+**/.env.*.local
+**/*.db
+**/*.db-*
+**/*.sqlite
+**/*.sqlite-*
+**/*.sqlite3
+**/*.sqlite3-*
+
+# Research-only sources never belong in the public repository
+source-data/
+source-images/
+outputs/
+backups/
+deploy/
+**/*.xls
+**/*.xlsx
+**/*.zip
+**/*.psd
+**/*.tif
+**/*.tiff
+**/*.raw
+
+# Dependencies and generated build output
+**/node_modules/
+**/.next/
+**/out/
+**/build/
+**/.pnpm-store/
+pnpm-store/
+web/static-site/public
+web/static-site/.next/
+web/static-site/out/
+
+# Logs and operating-system files
+**/*.log
+**/*.tsbuildinfo
+**/*.pem
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# generated/static-data and public/static-images are intentionally committed.
