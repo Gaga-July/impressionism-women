@@ -10,7 +10,7 @@ import { withBasePath } from "@/lib/presentation";
 type Painting = { id: number; code: string; titleZh: string; titleFr: string | null; titleOriginal: string; dateDisplay: string; yearStart: number | null; primarySpaceClassification: string; collectionZh: string | null; collectionFr: string | null; collectionOriginal: string | null; artist: { code: string; nameZh: string; nameFr: string; nameOriginal: string }; images: { relativePath: string; cardStaticPath?: string }[]; socialRoles: { socialRole: { nameZh: string } }[]; spaces: { spaceCategory: { nameZh: string; nameFr: string | null; parent: { code: string } | null } }[] };
 type Filters = { scope: string; space: string; role: string; artist: string; decade: string; q: string; sort: string };
 type FilterOption = { value: string; label: string; count: number; frLabel?: string };
-const scopes = ["ALL", "PUBLIC", "PRIVATE", "BOUNDARY", "UNKNOWN"];
+const scopes = ["ALL", "PUBLIC", "PRIVATE", "BOUNDARY"];
 const emptyFilters: Filters = { scope: "ALL", space: "", role: "", artist: "", decade: "", q: "", sort: "default" };
 const normalizeSearch = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase();
 function countOptions(values: string[]) { const counts = new Map<string, number>(); values.filter(Boolean).forEach(value => counts.set(value, (counts.get(value) ?? 0) + 1)); return [...counts].map(([value, count]) => ({ value, label: value, count })).sort((a, b) => b.count - a.count || a.label.localeCompare(b.label)); }
