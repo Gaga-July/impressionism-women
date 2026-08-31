@@ -12,7 +12,7 @@ import type { PublicPainting } from "@/lib/static-data";
 import { specificSpaceLabel } from "@/lib/space-filters";
 
 type DetailRow = { label: string; value?: string | null };
-function DetailGroup({ title, rows }: { title: string; rows: DetailRow[] }) { const shown = rows.filter(row => row.value); if (!shown.length) return null; return <section className="detail-group"><h2>{title}</h2><dl>{shown.map(row => <div key={row.label}><dt>{row.label}</dt><dd>{row.value}</dd></div>)}</dl></section>; }
+function DetailGroup({ title, rows }: { title: string; rows: DetailRow[] }) { if (title === "来源与核验" || title === "Sources et vérification") return null; const shown = rows.filter(row => row.value); if (!shown.length) return null; return <section className="detail-group"><h2>{title}</h2><dl>{shown.map(row => <div key={row.label}><dt>{row.label}</dt><dd>{row.value}</dd></div>)}</dl></section>; }
 
 export function StaticArtworkDetailView({ painting, related }: { painting: PublicPainting; related: PublicPainting[] }) {
   const query = useSearchParams(); const lang = languageFrom({ lang: query.get("lang") ?? undefined }); const fr = lang === "fr";

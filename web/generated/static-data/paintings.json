@@ -58,12 +58,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
       "ART-0130",
       "ART-0131",
-      "ART-0134"
+      "ART-0168",
+      "ART-0225",
+      "ART-0228",
+      "ART-0229"
     ]
   },
   {
@@ -2738,12 +2738,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0256",
       "ART-0047",
       "ART-0054",
       "ART-0055",
       "ART-0057",
-      "ART-0132",
-      "ART-0133"
+      "ART-0132"
     ]
   },
   {
@@ -2884,12 +2884,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0168",
       "ART-0123",
       "ART-0124",
-      "ART-0022",
-      "ART-0033",
-      "ART-0039",
-      "ART-0126"
+      "ART-0191",
+      "ART-0205",
+      "ART-0208"
     ]
   },
   {
@@ -3795,12 +3795,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0256",
       "ART-0038",
       "ART-0047",
       "ART-0055",
       "ART-0057",
-      "ART-0132",
-      "ART-0133"
+      "ART-0132"
     ]
   },
   {
@@ -5350,7 +5350,7 @@
       {
         "code": "SPACE_PRIVATE_E7A781E4BABA202F20E58A9EE585ACE5AEA4",
         "nameZh": "私人 / 办公室",
-        "nameFr": null,
+        "nameFr": "Bureau",
         "parentCode": "SPACE_PRIVATE",
         "isPrimary": true
       }
@@ -6895,7 +6895,7 @@
       {
         "code": "SPACE_PUBLIC_E585ACE585B1E5A8B1E4B990E59CBAE68980",
         "nameZh": "公共娱乐场所",
-        "nameFr": null,
+        "nameFr": "Lieu public de divertissement",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
@@ -8695,7 +8695,7 @@
     "collectionOriginal": "Van Gogh Museum, Amsterdam",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -8710,14 +8710,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -8746,12 +8746,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136",
-      "ART-0137"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -8824,7 +8824,7 @@
     "collectionOriginal": "Sheffield Galleries and Museums Trust",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -8839,14 +8839,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -8875,12 +8875,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136",
-      "ART-0137"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -8898,7 +8898,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -8913,14 +8913,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -8949,12 +8949,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136",
-      "ART-0137"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -9090,11 +9090,11 @@
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0126",
+      "ART-0127",
       "ART-0128",
       "ART-0129",
       "ART-0134",
-      "ART-0136",
-      "ART-0137"
+      "ART-0136"
     ]
   },
   {
@@ -9246,7 +9246,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -9261,14 +9261,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -9297,12 +9297,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0136",
-      "ART-0137"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -9387,7 +9387,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -9402,14 +9402,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -9438,12 +9438,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0137"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -9461,7 +9461,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -9476,14 +9476,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -9512,12 +9512,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -9535,7 +9535,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -9550,14 +9550,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -9586,12 +9586,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -9609,7 +9609,7 @@
     "collectionOriginal": "National Gallery of Art, Washington",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -9624,14 +9624,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -9660,12 +9660,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -9683,7 +9683,7 @@
     "collectionOriginal": "Musée d'Orsay, Paris",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -9698,14 +9698,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -9734,12 +9734,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -9778,7 +9778,7 @@
       {
         "code": "SPACE_PUBLIC_E688B7E5A496E58AB3E58AA8E7A9BAE997B4",
         "nameZh": "户外劳动空间",
-        "nameFr": null,
+        "nameFr": "Espace de travail en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
@@ -9831,7 +9831,7 @@
     "collectionOriginal": "National Gallery of Art, Washington",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -9846,14 +9846,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -9882,12 +9882,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -9905,7 +9905,7 @@
     "collectionOriginal": "Israel Museum, Jerusalem",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -9920,14 +9920,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -9956,12 +9956,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -9979,7 +9979,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -9994,14 +9994,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10030,12 +10030,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10120,7 +10120,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10135,14 +10135,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10171,12 +10171,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10194,7 +10194,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10209,14 +10209,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10245,12 +10245,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10268,7 +10268,7 @@
     "collectionOriginal": "Toledo Museum of Art, Toledo",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10283,14 +10283,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10307,12 +10307,12 @@
     "images": [],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10330,7 +10330,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10345,14 +10345,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10381,12 +10381,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10404,7 +10404,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10419,14 +10419,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10455,12 +10455,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10478,7 +10478,7 @@
     "collectionOriginal": "National Gallery of Art, Washington",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10493,14 +10493,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10529,12 +10529,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10552,7 +10552,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10567,14 +10567,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10591,12 +10591,12 @@
     "images": [],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10614,7 +10614,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10629,14 +10629,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10665,12 +10665,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10688,7 +10688,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10703,14 +10703,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10739,12 +10739,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10762,7 +10762,7 @@
     "collectionOriginal": "Kunsthalle Bremen, Bremen",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10777,14 +10777,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10813,12 +10813,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10836,7 +10836,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10851,14 +10851,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10887,12 +10887,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -10910,7 +10910,7 @@
     "collectionOriginal": "National Museum of Western Art,Tokyo",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -10925,14 +10925,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -10961,12 +10961,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -11051,7 +11051,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -11066,14 +11066,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -11102,12 +11102,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -11125,7 +11125,7 @@
     "collectionOriginal": "Fitzwilliam Museum, Cambridge",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -11140,14 +11140,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -11164,12 +11164,12 @@
     "images": [],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -11187,7 +11187,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -11202,14 +11202,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -11238,12 +11238,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -11261,7 +11261,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -11276,14 +11276,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -11312,12 +11312,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -11423,7 +11423,7 @@
       {
         "code": "SPACE_PUBLIC_E688B7E5A496E58AB3E58AA8E7A9BAE997B4",
         "nameZh": "户外劳动空间",
-        "nameFr": null,
+        "nameFr": "Espace de travail en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
@@ -11485,7 +11485,7 @@
       {
         "code": "SPACE_PUBLIC_E688B7E5A496E58AB3E58AA8E7A9BAE997B4",
         "nameZh": "户外劳动空间",
-        "nameFr": null,
+        "nameFr": "Espace de travail en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
@@ -11538,7 +11538,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -11553,14 +11553,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -11589,12 +11589,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -11612,7 +11612,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -11627,14 +11627,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -11663,12 +11663,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -11826,7 +11826,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -11841,14 +11841,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -11877,12 +11877,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -11921,7 +11921,7 @@
       {
         "code": "SPACE_PUBLIC_E688B7E5A496E58AB3E58AA8E7A9BAE997B4",
         "nameZh": "户外劳动空间",
-        "nameFr": null,
+        "nameFr": "Espace de travail en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
@@ -11974,7 +11974,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -11989,14 +11989,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12025,12 +12025,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12048,7 +12048,7 @@
     "collectionOriginal": "The Art Institute of Chicago",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12063,14 +12063,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12099,12 +12099,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12122,7 +12122,7 @@
     "collectionOriginal": "Musée d'Orsay, Paris",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12137,14 +12137,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12161,12 +12161,12 @@
     "images": [],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12184,7 +12184,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12199,14 +12199,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12235,12 +12235,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12258,7 +12258,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12273,14 +12273,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12309,12 +12309,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12332,7 +12332,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12347,14 +12347,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12383,12 +12383,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12406,7 +12406,7 @@
     "collectionOriginal": "The Metropolitan Museum of Art, New York",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12421,14 +12421,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12457,12 +12457,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12480,7 +12480,7 @@
     "collectionOriginal": "Musée d'Orsay, Paris",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12495,14 +12495,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12531,12 +12531,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12554,7 +12554,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12569,14 +12569,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12605,12 +12605,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12628,7 +12628,7 @@
     "collectionOriginal": "Unknown",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12643,14 +12643,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12679,12 +12679,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12723,7 +12723,7 @@
       {
         "code": "SPACE_PUBLIC_E688B7E5A496E58AB3E58AA8E7A9BAE997B4",
         "nameZh": "户外劳动空间",
-        "nameFr": null,
+        "nameFr": "Espace de travail en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
@@ -12776,7 +12776,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12791,14 +12791,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12815,12 +12815,12 @@
     "images": [],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12859,7 +12859,7 @@
       {
         "code": "SPACE_PUBLIC_E688B7E5A496E58AB3E58AA8E7A9BAE997B4",
         "nameZh": "户外劳动空间",
-        "nameFr": null,
+        "nameFr": "Espace de travail en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
@@ -12912,7 +12912,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12927,14 +12927,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -12951,12 +12951,12 @@
     "images": [],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -12974,7 +12974,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -12989,14 +12989,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -13013,12 +13013,12 @@
     "images": [],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -13036,7 +13036,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -13051,14 +13051,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -13087,12 +13087,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -13110,7 +13110,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -13125,14 +13125,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -13161,12 +13161,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -13184,7 +13184,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -13199,14 +13199,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -13235,12 +13235,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -13258,7 +13258,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -13273,14 +13273,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -13309,12 +13309,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -13399,7 +13399,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -13414,14 +13414,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -13450,12 +13450,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -13494,7 +13494,7 @@
       {
         "code": "SPACE_PUBLIC_E688B7E5A496E58AB3E58AA8E7A9BAE997B4",
         "nameZh": "户外劳动空间",
-        "nameFr": null,
+        "nameFr": "Espace de travail en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
@@ -13535,7 +13535,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -13550,14 +13550,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -13574,12 +13574,12 @@
     "images": [],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -13597,7 +13597,7 @@
     "collectionOriginal": "Private Collection",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "camille-pissarro",
@@ -13612,14 +13612,14 @@
         "code": "SPACE_BOUNDARY_E5869CE4B89AE58AB3E58AA8E7A9BAE997B4",
         "nameZh": "农业劳动空间",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       },
       {
         "code": "SPACE_BOUNDARY_E794B0E9878E",
         "nameZh": "田野",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
     ],
@@ -13648,12 +13648,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0126",
-      "ART-0128",
-      "ART-0129",
-      "ART-0131",
-      "ART-0134",
-      "ART-0136"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -14373,7 +14373,7 @@
       {
         "code": "SPACE_PUBLIC_E585ACE585B12FE5A8B1E4B990E59CBAE68980",
         "nameZh": "公共/娱乐场所",
-        "nameFr": null,
+        "nameFr": "Lieu de divertissement",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
@@ -14736,7 +14736,7 @@
       {
         "code": "SPACE_PUBLIC_E585ACE585B12FE5A8B1E4B990E59CBAE68980",
         "nameZh": "公共/娱乐场所",
-        "nameFr": null,
+        "nameFr": "Lieu de divertissement",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
@@ -14808,7 +14808,7 @@
       {
         "code": "SPACE_PUBLIC_E585ACE585B12FE688B7E5A496E5BAA6E58187",
         "nameZh": "公共/户外度假",
-        "nameFr": null,
+        "nameFr": "Villégiature en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
@@ -14869,7 +14869,7 @@
       {
         "code": "SPACE_PUBLIC_E585ACE585B12FE688B7E5A496E5BAA6E58187",
         "nameZh": "公共/户外度假",
-        "nameFr": null,
+        "nameFr": "Villégiature en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
@@ -14930,7 +14930,7 @@
       {
         "code": "SPACE_PUBLIC_E585ACE585B12FE688B7E5A496E5BAA6E58187",
         "nameZh": "公共/户外度假",
-        "nameFr": null,
+        "nameFr": "Villégiature en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
@@ -15003,7 +15003,7 @@
       {
         "code": "SPACE_PRIVATE_E7A781E4BABA2FE58D8AE688B7E5A496",
         "nameZh": "私人/半户外",
-        "nameFr": null,
+        "nameFr": "Espace semi-extérieur",
         "parentCode": "SPACE_PRIVATE",
         "isPrimary": true
       }
@@ -15070,7 +15070,7 @@
       {
         "code": "SPACE_PUBLIC_E585ACE585B12FE688B7E5A496E5BAA6E58187",
         "nameZh": "公共/户外度假",
-        "nameFr": null,
+        "nameFr": "Villégiature en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
@@ -15137,7 +15137,7 @@
       {
         "code": "SPACE_PUBLIC_E585ACE585B12FE688B7E5A496E5BAA6E58187",
         "nameZh": "公共/户外度假",
-        "nameFr": null,
+        "nameFr": "Villégiature en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
@@ -15405,7 +15405,7 @@
       {
         "code": "SPACE_PUBLIC_E585ACE585B12FE688B7E5A496E5BAA6E58187",
         "nameZh": "公共/户外度假",
-        "nameFr": null,
+        "nameFr": "Villégiature en plein air",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
@@ -15697,12 +15697,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0228",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
       "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0089"
     ]
   },
   {
@@ -15898,12 +15898,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
       "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0089"
     ]
   },
   {
@@ -15965,12 +15965,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0230",
       "ART-0075",
       "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0089"
     ]
   },
   {
@@ -16038,12 +16038,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0229",
       "ART-0075",
       "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0089"
     ]
   },
   {
@@ -16172,12 +16172,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
-      "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0079"
     ]
   },
   {
@@ -16239,12 +16239,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
-      "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0079"
     ]
   },
   {
@@ -16312,12 +16312,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
-      "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0079"
     ]
   },
   {
@@ -16629,12 +16629,12 @@
     "images": [],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
-      "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0079"
     ]
   },
   {
@@ -16696,12 +16696,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
-      "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0079"
     ]
   },
   {
@@ -16763,12 +16763,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
-      "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0079"
     ]
   },
   {
@@ -16897,12 +16897,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
-      "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0079"
     ]
   },
   {
@@ -17086,12 +17086,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
-      "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0079"
     ]
   },
   {
@@ -17153,12 +17153,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
-      "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0079"
     ]
   },
   {
@@ -17572,7 +17572,7 @@
     "collectionOriginal": "私人收藏",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "UNKNOWN",
+    "primarySpaceClassification": "PRIVATE",
     "verificationStatus": "unverified",
     "artist": {
       "code": "claude-monet",
@@ -17607,7 +17607,14 @@
       }
     ],
     "sources": [],
-    "relatedArtworkCodes": []
+    "relatedArtworkCodes": [
+      "ART-0003",
+      "ART-0004",
+      "ART-0005",
+      "ART-0006",
+      "ART-0007",
+      "ART-0008"
+    ]
   },
   {
     "code": "ART-0255",
@@ -17808,12 +17815,12 @@
     "images": [],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0318",
+      "ART-0320",
+      "ART-0323",
+      "ART-0324",
       "ART-0001",
-      "ART-0038",
-      "ART-0040",
-      "ART-0047",
-      "ART-0054",
-      "ART-0055"
+      "ART-0038"
     ]
   },
   {
@@ -18442,12 +18449,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
+      "ART-0225",
+      "ART-0228",
+      "ART-0229",
+      "ART-0230",
       "ART-0075",
-      "ART-0079",
-      "ART-0089",
-      "ART-0135",
-      "ART-0001",
-      "ART-0038"
+      "ART-0079"
     ]
   },
   {
@@ -22043,13 +22050,6 @@
         "nameFr": null,
         "parentCode": "SPACE_PRIVATE",
         "isPrimary": true
-      },
-      {
-        "code": "SPACE_PRIVATE_E99888E99990E7A9BAE997B4",
-        "nameZh": "阈限空间",
-        "nameFr": null,
-        "parentCode": "SPACE_PRIVATE",
-        "isPrimary": false
       }
     ],
     "socialRoles": [
@@ -22245,7 +22245,7 @@
     "collectionOriginal": "Princeton University Art Museum",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "douard-manet",
@@ -22260,7 +22260,7 @@
         "code": "SPACE_BOUNDARY_E688B7E5A496EFBC88E59CB0E782B9E5BE85E6A0B8E9AA8CEFBC89",
         "nameZh": "户外（地点待核验）",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
     ],
@@ -22291,10 +22291,10 @@
     "relatedArtworkCodes": [
       "ART-0002",
       "ART-0021",
+      "ART-0081",
       "ART-0037",
       "ART-0059",
-      "ART-0065",
-      "ART-0077"
+      "ART-0065"
     ]
   },
   {
@@ -22312,7 +22312,7 @@
     "collectionOriginal": "Museu de Arte de São Paulo Assis Chateaubriand",
     "collectionZh": null,
     "collectionFr": null,
-    "primarySpaceClassification": "BOUNDARY",
+    "primarySpaceClassification": "PUBLIC",
     "verificationStatus": "unverified",
     "artist": {
       "code": "douard-manet",
@@ -22327,7 +22327,7 @@
         "code": "SPACE_BOUNDARY_E688B7E5A496EFBC88E59CB0E782B9E5BE85E6A0B8E9AA8CEFBC89",
         "nameZh": "户外（地点待核验）",
         "nameFr": null,
-        "parentCode": "SPACE_BOUNDARY",
+        "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
     ],
@@ -22356,12 +22356,12 @@
     ],
     "sources": [],
     "relatedArtworkCodes": [
-      "ART-0001",
-      "ART-0038",
-      "ART-0040",
-      "ART-0047",
-      "ART-0054",
-      "ART-0055"
+      "ART-0002",
+      "ART-0010",
+      "ART-0011",
+      "ART-0012",
+      "ART-0014",
+      "ART-0016"
     ]
   },
   {
@@ -22668,7 +22668,7 @@
       {
         "code": "SPACE_PUBLIC_E5B7B4E9BB8EE6AD8CE589A7E999A2",
         "nameZh": "巴黎歌剧院",
-        "nameFr": null,
+        "nameFr": "Opéra de Paris",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
@@ -22734,7 +22734,7 @@
       {
         "code": "SPACE_PUBLIC_E5B7B4E9BB8EE6AD8CE589A7E999A2",
         "nameZh": "巴黎歌剧院",
-        "nameFr": null,
+        "nameFr": "Opéra de Paris",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }
@@ -23009,7 +23009,7 @@
       {
         "code": "SPACE_PUBLIC_E8BF91E9838AE4BC91E997B2E7A9BAE997B4",
         "nameZh": "近郊休闲空间",
-        "nameFr": null,
+        "nameFr": "Espace de loisirs en proche banlieue",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": false
       }
@@ -23843,7 +23843,7 @@
       {
         "code": "SPACE_PUBLIC_E5B7B4E9BB8EE5A5B3E7A59EE6B8B8E4B990E58E85E79A84E98592E590A7",
         "nameZh": "巴黎女神游乐厅的酒吧",
-        "nameFr": null,
+        "nameFr": "Bar des Folies Bergère",
         "parentCode": "SPACE_PUBLIC",
         "isPrimary": true
       }

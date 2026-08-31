@@ -6,9 +6,21 @@ const scenes: Record<string, string> = { "卢浮宫博物馆":"Musée du Louvre"
 
 const genericSpace = (value: string) => value.replaceAll("公共", "public").replaceAll("私人", "privé").replaceAll("室内", "intérieur").replaceAll("户外", "extérieur").replaceAll("花园", "jardin").replaceAll("自然", "nature").replaceAll("道路", "chemin").replaceAll("娱乐空间", "espace de loisir").replaceAll("社交场所", "lieu de sociabilité").replaceAll("舞蹈室", "salle de danse").replaceAll("后台", "coulisses").replaceAll("舞台幕后", "coulisses").replaceAll("餐馆", "restaurant").replaceAll("咖啡馆", "café").replaceAll("剧院", "théâtre").replaceAll("画室", "atelier").replaceAll("卧室", "chambre").replaceAll("浴室", "salle de bain").replaceAll("工作间", "atelier de travail").replaceAll("闺房", "boudoir").replaceAll("虚构的东方主义空间", "espace orientaliste imaginaire");
 
+const reviewedScenes: Record<string, string> = {
+  "户外劳动空间": "Espace de travail en plein air",
+  "巴黎歌剧院": "Opéra de Paris",
+  "户外度假": "Villégiature en plein air",
+  "娱乐场所": "Lieu de divertissement",
+  "巴黎女神游乐厅酒吧": "Bar des Folies Bergère",
+  "公共娱乐场所": "Lieu public de divertissement",
+  "近郊休闲空间": "Espace de loisirs en proche banlieue",
+  "半户外": "Espace semi-extérieur",
+  "办公室": "Bureau",
+};
+
 export const frenchRole = (value: string) => roles[value] ?? value;
 export const frenchClass = (value: string) => classes[value] ?? value;
 export const frenchRelation = (value: string) => relations[value] ?? value;
 export const frenchTag = (value: string) => tags[value] ?? value;
-export const frenchScene = (value: string) => scenes[value] ?? genericSpace(value);
+export const frenchScene = (value: string) => reviewedScenes[value] ?? scenes[value] ?? genericSpace(value);
 export const frenchDecade = (value: string) => value.replace(/^(\d{4})年代$/, "Années $1");
