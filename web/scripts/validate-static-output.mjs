@@ -11,11 +11,11 @@ const errors = [];
 const check = (condition, message) => { if (!condition) errors.push(message); };
 check(paintings.length === 355, `Expected 355 paintings, found ${paintings.length}.`);
 check(artists.length === 7, `Expected 7 artists, found ${artists.length}.`);
-check(summary.imageCount === 321, `Expected 321 image records, found ${summary.imageCount}.`);
+check(summary.imageCount === 355, `Expected 355 image records, found ${summary.imageCount}.`);
 check(summary.artworkCodeReservationCount === 2, `Expected 2 reservations, found ${summary.artworkCodeReservationCount}.`);
 check(exportReport.status === "passed", "Static data export report did not pass.");
-check(manifest.imageCount === 321, `Expected 321 manifest images, found ${manifest.imageCount}.`);
-check(manifest.derivativeCount === 642, `Expected 642 derivatives, found ${manifest.derivativeCount}.`);
+check(manifest.imageCount === 355, `Expected 355 manifest images, found ${manifest.imageCount}.`);
+check(manifest.derivativeCount === 710, `Expected 710 derivatives, found ${manifest.derivativeCount}.`);
 for (const entry of manifest.images) {
   for (const publicPath of [entry.detailStaticPath, entry.cardStaticPath]) {
     const file = path.join(root, "public", ...publicPath.split("/").filter(Boolean));

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-31T07:05:50.380Z",
+  "generatedAt": "2026-09-02T04:16:32.713Z",
   "dataSchemaVersion": 1,
   "status": "passed",
   "counts": {
     "paintings": 355,
     "artists": 7,
-    "images": 321,
+    "images": 355,
     "reservations": 2
   },
   "checks": {
@@ -25,7 +25,7 @@
   "outputFiles": [
     {
       "name": "paintings.json",
-      "bytes": 624979
+      "bytes": 637377
     },
     {
       "name": "artists.json",

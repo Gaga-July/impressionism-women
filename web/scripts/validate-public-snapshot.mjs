@@ -16,11 +16,11 @@ check(Array.isArray(paintings) && paintings.length === 355, `Expected 355 painti
 check(Array.isArray(artists) && artists.length === 7, `Expected 7 artists, found ${artists.length}.`);
 check(summary.paintingCount === 355, "Summary painting count is not 355.");
 check(summary.artistCount === 7, "Summary artist count is not 7.");
-check(summary.imageCount === 321, "Summary image count is not 321.");
+check(summary.imageCount === 355, "Summary image count is not 355.");
 check(summary.artworkCodeReservationCount === 2, "Summary reservation count is not 2.");
 check(report.status === "passed", "Committed export report did not pass.");
-check(manifest.imageCount === 321, "Manifest image count is not 321.");
-check(manifest.derivativeCount === 642, "Manifest derivative count is not 642.");
+check(manifest.imageCount === 355, "Manifest image count is not 355.");
+check(manifest.derivativeCount === 710, "Manifest derivative count is not 710.");
 
 const codes = new Set();
 for (const painting of paintings) {
@@ -47,11 +47,11 @@ for (const entry of manifest.images) {
 
 const derivativeDir = path.join(publicRoot, "static-images", "artworks");
 const derivativeNames = await readdir(derivativeDir);
-check(derivativeNames.length === 642, `Expected 642 committed WebP files, found ${derivativeNames.length}.`);
+check(derivativeNames.length === 710, `Expected 710 committed WebP files, found ${derivativeNames.length}.`);
 for (const name of derivativeNames) {
   check(/^ART-\d{4}-\d{2}(-card)?\.webp$/.test(name), `Unexpected derivative filename: ${name}`);
 }
-check(referenced.size === 642, `Expected 642 unique manifest paths, found ${referenced.size}.`);
+check(referenced.size === 710, `Expected 710 unique manifest paths, found ${referenced.size}.`);
 
 const staticSourceFiles = [
   "src/lib/static-data.ts", "static-site/app/page.tsx", "static-site/app/collection/page.tsx",
@@ -68,4 +68,4 @@ if (errors.length) {
   console.error(errors.join("\n"));
   process.exit(1);
 }
-console.log("Public snapshot validated: 355 paintings, 7 artists, 321 image records, 2 reservations, 642 WebP derivatives.");
+console.log("Public snapshot validated: 355 paintings, 7 artists, 355 image records, 2 reservations, 710 WebP derivatives.");

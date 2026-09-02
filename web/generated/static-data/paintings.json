@@ -1278,7 +1278,19 @@
       }
     ],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "贝尔特莫里索/ART-0017-01.jpg",
+        "originalFilename": "《在公园里》ART-0017.JPG",
+        "mimeType": "image/jpeg",
+        "altZh": "《在公园里》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0062",
@@ -5810,7 +5822,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "德加/ART-0083-01.jpg",
+        "originalFilename": "后台舞者ART-0083.jpg",
+        "mimeType": "image/jpeg",
+        "altZh": "《后台舞者》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0062",
@@ -7318,7 +7342,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "德加/ART-0105-01.jpg",
+        "originalFilename": "女帽商们ART-0105.jpg",
+        "mimeType": "image/jpeg",
+        "altZh": "《女帽商们》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -8669,7 +8705,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "德加/ART-0125-01.jpg",
+        "originalFilename": "演出前ART-0125.jpg",
+        "mimeType": "image/jpeg",
+        "altZh": "《演出前》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0062",
@@ -8798,7 +8846,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "卡米耶毕沙罗/ART-0127-01.jpg",
+        "originalFilename": "《梳妆的年轻农妇》ART-0127.JPG",
+        "mimeType": "image/jpeg",
+        "altZh": "《梳妆的年轻农妇》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0003",
@@ -10256,7 +10316,7 @@
   {
     "code": "ART-0148",
     "titleOriginal": "Peasants Resting",
-    "titleZh": "《休憩的农民》",
+    "titleZh": "《休憩的农妇》",
     "titleFr": null,
     "dateDisplay": "1881",
     "yearStart": 1881,
@@ -10304,7 +10364,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "卡米耶毕沙罗/ART-0148-01.jpg",
+        "originalFilename": "《休憩的农妇》ART-0148.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《休憩的农妇》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -10588,7 +10660,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "卡米耶毕沙罗/ART-0152-01.jpg",
+        "originalFilename": "《蓬图瓦兹的牧牛女》ART-0152.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《蓬图瓦兹的牧牛女》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -11161,7 +11245,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "卡米耶毕沙罗/ART-0160-01.jpg",
+        "originalFilename": "《洗盘子的年轻女子》 ART-0160.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《洗盘子的年轻女子》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -11438,7 +11534,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "卡米耶毕沙罗/ART-0164-01.jpg",
+        "originalFilename": "市场ART-0164.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《市场》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -12158,7 +12266,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "卡米耶毕沙罗/ART-0174-01.jpg",
+        "originalFilename": "《采摘豌豆》 ART-0174.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《采摘豌豆》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -12812,7 +12932,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "卡米耶毕沙罗/ART-0183-01.jpg",
+        "originalFilename": "《坐着的农妇》 ART-0183.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《坐着的农妇》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -12948,7 +13080,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "卡米耶毕沙罗/ART-0185-01.jpg",
+        "originalFilename": "《埃拉格尼的农妇与孩童》 ART-0185.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《埃拉格尼的农妇与孩童》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -13010,7 +13154,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "卡米耶毕沙罗/ART-0186-01.jpg",
+        "originalFilename": "《采摘豌豆》 ART-0186.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《采摘豌豆》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -13509,7 +13665,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "卡米耶毕沙罗/ART-0193-01.jpg",
+        "originalFilename": "《吉索尔的集市》 ART-0193.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《吉索尔的集市》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -13571,7 +13739,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "卡米耶毕沙罗/ART-0194-01.jpg",
+        "originalFilename": "《埃拉格尼的干草收割》 ART-0194.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《埃拉格尼的干草收割》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -13797,18 +13977,18 @@
   },
   {
     "code": "ART-0198",
-    "titleOriginal": "Camille with a Small dog",
-    "titleZh": "《卡米耶与小狗》",
-    "titleFr": null,
-    "dateDisplay": "1866",
-    "yearStart": 1866,
-    "yearEnd": 1866,
-    "mediumOriginal": null,
-    "mediumZh": null,
-    "mediumFr": null,
-    "dimensions": "73×54cm",
-    "collectionOriginal": "Buhrle Collection",
-    "collectionZh": null,
+    "titleOriginal": "Camille Monet and a Child in the Artist’s Garden in Argenteuil",
+    "titleZh": "《花园里的卡米耶和让》",
+    "titleFr": "Camille Monet et un enfant dans le jardin de l’artiste à Argenteuil",
+    "dateDisplay": "1875",
+    "yearStart": 1875,
+    "yearEnd": 1875,
+    "mediumOriginal": "Oil on canvas",
+    "mediumZh": "布面油画",
+    "mediumFr": "huile sur toile",
+    "dimensions": "55.3 × 64.7 cm",
+    "collectionOriginal": "Museum of Fine Arts, Boston",
+    "collectionZh": "波士顿美术馆",
     "collectionFr": null,
     "primarySpaceClassification": "PRIVATE",
     "verificationStatus": "unverified",
@@ -13822,9 +14002,9 @@
     },
     "spaces": [
       {
-        "code": "SPACE_PRIVATE_E7A781E4BABA2FE5AEA4E58685",
-        "nameZh": "私人/室内",
-        "nameFr": null,
+        "code": "SPACE_PRIVATE_E7A781E4BABAE88AB1E59BAD",
+        "nameZh": "私人花园",
+        "nameFr": "Jardin privé",
         "parentCode": "SPACE_PRIVATE",
         "isPrimary": true
       }
@@ -13839,7 +14019,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "克劳德莫奈/ART-0198-01.jpg",
+        "originalFilename": "花园里的卡米耶和让ART-0198.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《花园里的卡米耶和让》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0003",
@@ -14255,7 +14447,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "克劳德莫奈/ART-0204-01.jpg",
+        "originalFilename": "塞纳河畔的本尼科特 ART-0204.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《塞纳河畔的本尼科特》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0075",
@@ -14829,7 +15033,19 @@
         "nameFr": null
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "克劳德莫奈/ART-0212-01.jpg",
+        "originalFilename": "《特鲁维尔海滩上的卡米耶》ART-0212.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《特鲁维尔海滩上的卡米耶》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0075",
@@ -14890,7 +15106,19 @@
       }
     ],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "克劳德莫奈/ART-0213-01.jpg",
+        "originalFilename": "特鲁维尔海滩 ART-0213.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《特鲁维尔海滩》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0075",
@@ -15420,7 +15648,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "克劳德莫奈/ART-0221-01.jpg",
+        "originalFilename": "《特鲁维尔海滩》2ART-0221.png",
+        "mimeType": "image/jpeg",
+        "altZh": "《特鲁维尔海滩》2",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0075",
@@ -15885,9 +16125,9 @@
     "tags": [],
     "images": [
       {
-        "relativePath": "克劳德莫奈/阿让特伊花园里的卡米耶和让.PNG",
-        "originalFilename": "阿让特伊花园里的卡米耶和让.PNG",
-        "mimeType": null,
+        "relativePath": "克劳德莫奈/ART-0228-01.jpg",
+        "originalFilename": "阿特让伊花园里的卡米耶和让ART-0228.jpg",
+        "mimeType": "image/jpeg",
         "altZh": null,
         "altFr": null,
         "credit": null,
@@ -16565,7 +16805,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "克劳德莫奈/ART-0238-01.jpg",
+        "originalFilename": "《室内场景》 ART-0238.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《室内场景》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0003",
@@ -16578,8 +16830,8 @@
   },
   {
     "code": "ART-0239",
-    "titleOriginal": "Grils in the Garden",
-    "titleZh": "《花园里的女人》",
+    "titleOriginal": "Two Women among the Flowers",
+    "titleZh": "《花丛中的两位女人》",
     "titleFr": null,
     "dateDisplay": "1875",
     "yearStart": 1875,
@@ -16626,7 +16878,19 @@
         "nameFr": null
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "克劳德莫奈/ART-0239-01.png",
+        "originalFilename": "花丛中的两位女人ART-0239.PNG",
+        "mimeType": "image/png",
+        "altZh": "《花丛中的两位女人》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0225",
@@ -16949,7 +17213,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "克劳德莫奈/ART-0244-01.jpg",
+        "originalFilename": "阿让特伊附近的散步ART-0244.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《阿让特伊附近的散步》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0075",
@@ -17341,9 +17617,9 @@
     "tags": [],
     "images": [
       {
-        "relativePath": "克劳德莫奈/蒙梭公园.PNG",
-        "originalFilename": "蒙梭公园.PNG",
-        "mimeType": null,
+        "relativePath": "克劳德莫奈/ART-0250-01.jpg",
+        "originalFilename": "蒙梭公园1878（2）ART-0253.PNG",
+        "mimeType": "image/jpeg",
         "altZh": null,
         "altFr": null,
         "credit": null,
@@ -17479,7 +17755,19 @@
     ],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "克劳德莫奈/ART-0252-01.jpg",
+        "originalFilename": "蒙梭公园 ART-0252.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《蒙梭公园》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -17536,9 +17824,9 @@
     "tags": [],
     "images": [
       {
-        "relativePath": "克劳德莫奈/蒙梭公园 (2).PNG",
-        "originalFilename": "蒙梭公园 (2).PNG",
-        "mimeType": null,
+        "relativePath": "克劳德莫奈/ART-0253-01.jpg",
+        "originalFilename": "蒙梭公园ART-0250.PNG",
+        "mimeType": "image/jpeg",
         "altZh": null,
         "altFr": null,
         "credit": null,
@@ -17812,7 +18100,19 @@
       }
     ],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "克劳德莫奈/ART-0257-01.jpg",
+        "originalFilename": "吉维尼林中作画的布兰奇ART-0257.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《吉维尼林中作画的布兰奇》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0318",
@@ -17873,7 +18173,19 @@
       }
     ],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "克劳德莫奈/ART-0258-01.jpg",
+        "originalFilename": "《蓝色的小船》ART-0258.jpg",
+        "mimeType": "image/jpeg",
+        "altZh": "《蓝色的小船》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0038",
@@ -18616,7 +18928,7 @@
   {
     "code": "ART-0269",
     "titleOriginal": "Pink and Blue",
-    "titleZh": "《粉色与蓝色》《卡昂·当韦尔姐妹》",
+    "titleZh": "《粉色与蓝色》",
     "titleFr": null,
     "dateDisplay": "1881",
     "yearStart": 1881,
@@ -18675,7 +18987,19 @@
         "nameFr": null
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "雷诺阿/ART-0269-01.jpg",
+        "originalFilename": "粉色与蓝色ART-0269.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《粉色与蓝色》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0036",
@@ -19107,7 +19431,19 @@
         "nameFr": null
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "雷诺阿/ART-0275-01.jpg",
+        "originalFilename": "青蛙塘 ART-0275.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《青蛙塘》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -19168,7 +19504,19 @@
         "nameFr": null
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "雷诺阿/ART-0276-01.jpg",
+        "originalFilename": "宫女（阿尔及利亚女人）ART-0276.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《宫女（阿尔及利亚女人）》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0037",
@@ -19223,7 +19571,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "雷诺阿/ART-0277-01.jpg",
+        "originalFilename": "《后宫（身着阿尔及利亚服饰的巴黎女人）》ART-0277.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《后宫（身着阿尔及利亚服饰的巴黎女人）》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0037",
@@ -21046,7 +21406,19 @@
         "nameFr": null
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "雷诺阿/ART-0302-01.jpg",
+        "originalFilename": "编辫子的女子苏珊·瓦拉东）ART-0302.PNG",
+        "mimeType": "image/jpeg",
+        "altZh": "《编辫子的女子（苏珊·瓦拉东）》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0002",
@@ -22694,7 +23066,19 @@
     ],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "马奈 巴齐耶/ART-0327-01.jpg",
+        "originalFilename": "歌剧院假面舞会ART-0327.jpg",
+        "mimeType": "image/jpeg",
+        "altZh": "《歌剧院假面舞会》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0062",
@@ -22760,7 +23144,19 @@
     ],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "马奈 巴齐耶/ART-0328-01.jpg",
+        "originalFilename": "歌剧院假面舞会ART-0328.jpg",
+        "mimeType": "image/jpeg",
+        "altZh": "《歌剧院假面舞会》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0062",
@@ -22962,7 +23358,19 @@
     "socialClasses": [],
     "personRelations": [],
     "tags": [],
-    "images": [],
+    "images": [
+      {
+        "relativePath": "马奈 巴齐耶/ART-0331-01.jpg",
+        "originalFilename": "持扇女子ART-0331.jpg",
+        "mimeType": "image/jpeg",
+        "altZh": "《持扇女子》",
+        "altFr": null,
+        "credit": null,
+        "rightsStatement": null,
+        "isPrimary": true,
+        "sortOrder": 0
+      }
+    ],
     "sources": [],
     "relatedArtworkCodes": [
       "ART-0037",

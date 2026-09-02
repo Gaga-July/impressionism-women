@@ -40,6 +40,9 @@ export function getStaticRelatedPaintings(painting: PublicPainting) {
 }
 export function getStaticSiteSummary() { return summaryJson as StaticSiteSummary; }
 export function getStaticFeaturedPaintings() { return paintings.slice(0, 6); }
+export function getStaticCarouselPaintings() {
+  return ["ART-0009", "ART-0066", "ART-0200", "ART-0279", "ART-0318"].map(code => paintingByCode.get(code)).filter((item): item is PublicPainting => item !== undefined);
+}
 export function getStaticCollectionPaintings(): CollectionPainting[] {
   return paintings;
 }
