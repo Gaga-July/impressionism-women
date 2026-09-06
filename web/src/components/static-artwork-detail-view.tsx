@@ -6,11 +6,10 @@ import { useSearchParams } from "next/navigation";
 import { ArtworkCard } from "@/components/artwork-card";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { frenchClass, frenchRelation, frenchRole, frenchScene, frenchTag } from "@/lib/french";
+import { frenchClass, frenchRelation, frenchRole, frenchSpecificSpace, frenchTag } from "@/lib/french";
 import { languageFrom, localize, primarySpaceLabel, withLanguage } from "@/lib/i18n";
 import { detailImageUrl } from "@/lib/presentation";
 import type { PublicPainting } from "@/lib/static-data";
-import { specificSpaceLabel } from "@/lib/space-filters";
 
 type DetailRow = { label: string; value?: string | null };
 function DetailGroup({ title, rows }: { title: string; rows: DetailRow[] }) { if (title === "来源与核验" || title === "Sources et vérification") return null; const shown = rows.filter(row => row.value); if (!shown.length) return null; return <section className="detail-group"><h2>{title}</h2><dl>{shown.map(row => <div key={row.label}><dt>{row.label}</dt><dd>{row.value}</dd></div>)}</dl></section>; }
@@ -20,7 +19,7 @@ export function StaticArtworkDetailView({ painting, related }: { painting: Publi
   const requestedFrom = query.get("from"); const collectionHref = requestedFrom?.startsWith("/collection") ? requestedFrom : withLanguage("/collection", lang);
   const title = fr ? painting.titleFr ?? painting.titleOriginal ?? painting.titleZh : painting.titleZh;
   const artist = fr ? painting.artist.nameFr ?? painting.artist.nameOriginal ?? painting.artist.nameZh : painting.artist.nameZh;
-  const spaces = painting.spaces.map(item => fr ? item.spaceCategory.nameFr ?? frenchScene(specificSpaceLabel(item.spaceCategory.nameZh) ?? item.spaceCategory.nameZh) : item.spaceCategory.nameZh).join(" · ");
+  const spaces = painting.spaces.map(item => fr ? frenchSpecificSpace(item.spaceCategory.nameZh, item.spaceCategory.nameFr) : item.spaceCategory.nameZh).join(" · ");
   const roles = painting.socialRoles.map(item => fr ? item.socialRole.nameFr ?? frenchRole(item.socialRole.nameZh) : item.socialRole.nameZh).join(" · ");
   const classes = painting.socialClasses.map(item => fr ? item.nameFr ?? frenchClass(item.nameZh) : item.nameZh).join(" · ");
   const relations = painting.personRelations.map(item => fr ? item.nameFr ?? frenchRelation(item.nameZh) : item.nameZh).join(" · ");
