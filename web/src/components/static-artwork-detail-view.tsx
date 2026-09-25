@@ -7,6 +7,7 @@ import { ArtworkCard } from "@/components/artwork-card";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { frenchClass, frenchRelation, frenchRole, frenchSpecificSpace, frenchTag } from "@/lib/french";
+import { specificSpaceDisplayZh } from "@/lib/space-filters";
 import { languageFrom, localize, primarySpaceLabel, withLanguage } from "@/lib/i18n";
 import { detailImageUrl } from "@/lib/presentation";
 import type { PublicPainting } from "@/lib/static-data";
@@ -19,7 +20,7 @@ export function StaticArtworkDetailView({ painting, related }: { painting: Publi
   const requestedFrom = query.get("from"); const collectionHref = requestedFrom?.startsWith("/collection") ? requestedFrom : withLanguage("/collection", lang);
   const title = fr ? painting.titleFr ?? painting.titleOriginal ?? painting.titleZh : painting.titleZh;
   const artist = fr ? painting.artist.nameFr ?? painting.artist.nameOriginal ?? painting.artist.nameZh : painting.artist.nameZh;
-  const spaces = painting.spaces.map(item => fr ? frenchSpecificSpace(item.spaceCategory.nameZh, item.spaceCategory.nameFr) : item.spaceCategory.nameZh).join(" · ");
+  const spaces = painting.spaces.map(item => fr ? frenchSpecificSpace(item.spaceCategory.nameZh, item.spaceCategory.nameFr) : specificSpaceDisplayZh(item.spaceCategory.nameZh)).join(" · ");
   const roles = painting.socialRoles.map(item => fr ? item.socialRole.nameFr ?? frenchRole(item.socialRole.nameZh) : item.socialRole.nameZh).join(" · ");
   const classes = painting.socialClasses.map(item => fr ? item.nameFr ?? frenchClass(item.nameZh) : item.nameZh).join(" · ");
   const relations = painting.personRelations.map(item => fr ? item.nameFr ?? frenchRelation(item.nameZh) : item.nameZh).join(" · ");

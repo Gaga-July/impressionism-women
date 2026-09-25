@@ -8,9 +8,14 @@ const preferredNames: [RegExp, string][] = [
 ];
 
 export function specificSpaceLabel(raw: string) {
+  if (raw === "户外（地点待核验）") return "户外";
   const preferred = preferredNames.find(([pattern]) => pattern.test(raw));
   if (preferred) return preferred[1];
   const remaining = raw.split(/[／/]/).map(value => value.trim()).filter(value => value && !genericTokens.has(value));
   const label = remaining.join("／");
   return label && !genericTokens.has(label) ? label : null;
+}
+
+export function specificSpaceDisplayZh(raw: string) {
+  return raw === "户外（地点待核验）" ? "户外" : raw;
 }
